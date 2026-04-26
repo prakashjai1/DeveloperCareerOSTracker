@@ -1,0 +1,26 @@
+@import "tailwindcss";
+:root {
+ --bodyColor: #E0E7FF;
+ --bgElementColor: #9fb0d5;
+ --textColor: #64748B;
+ --themeColor:#fff;
+ --darkThemeColor:#000;
+ --dotColor: #6366F1;
+ --borderColor:gray;
+ --projectCardColor:#FEFD99;
+ 
+}
+
+
+body{
+  background-color: var(--bodyColor);
+  padding: 10px;
+}
+.nav-link{
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+  background-color: var(--bgElementColor);
+  color: var(--darkThemeColor);
+}
+
